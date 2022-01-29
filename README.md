@@ -43,12 +43,12 @@ When testing the *first model* the accuracy was about
 
 | n    | model         | accuracy | time (s) |
 |------|---------------|----------|----------|
-| 10   | Naive Bayes   | 0.81     | 0.3      |
-| 10   | Decision Tree | 0.81     | 5.1      |
-| 100  | Naive Bayes   | 0.90     | 2.5      |
-| 100  | Decision Tree | 0.90     | 220      |
-| 1000 | Naive Bayes   | 0.96     | 25       |
-| 1000 | Decision Tree | 0.93     | 4879     |
+| 10   | Naive Bayes   | 81%      | 0.3      |
+| 10   | Decision Tree | 81%      | 5.1      |
+| 100  | Naive Bayes   | 90%      | 2.5      |
+| 100  | Decision Tree | 90%      | 220      |
+| 1000 | Naive Bayes   | 96%      | 25       |
+| 1000 | Decision Tree | 93%      | 4879     |
 
 where $n$ is the number of top most frequent words (e.g. top 10 most frequent words).
 
@@ -56,8 +56,8 @@ And when testing the *second model* the accuracy was about
 
 | model         | accuracy | time (s) |
 |---------------|----------|----------|
-| Naive Bayes   | 0.79     | 0.16     |
-| Decision Tree | 0.79     | 1.16     |
+| Naive Bayes   | 79%      | 0.16     |
+| Decision Tree | 79%      | 1.16     |
 
 ## References
 
