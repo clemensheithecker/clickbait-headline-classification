@@ -2,6 +2,33 @@
 
 Description...
 
+## Data Exploration
+
+Word clouds of the most occurring words in clickbait
+
+<p align="center">
+    <img src="figures/most_frequent_clickbait_words.png" alt="Most Frequent Words in Clickbait Headlines" width="512">
+</p
+
+and non-clickbait headlines.
+
+<p align="center">
+    <img src="figures/most_frequent_non_clickbait_words.png" alt="Most Frequent Words in Non-Clickbait Headlines" width="512">
+</p
+
+The headline length distribution measured in number of words of clickbait and non-clickbait headlines.
+
+<p align="center">
+    <img src="figures/word_number_distributions.png" alt="Number of Words in Headline Frequency Distribution" width="512">
+</p
+
+A comparison of the occurrence of different word types in clickbait and non-clickbait headlines. We hypothesized that clickbait headlines contain different kinds of words compared to non-clickbait headlines. To analyze this, we looked at [auxiliary verbs](https://en.wikipedia.org/wiki/Auxiliary_verb) (e.g. *could*, *must*, *should*), [interrogative pro-forms](https://en.wiktionary.org/wiki/Category:English_interrogative_pro-forms)—question words—(e.g. *who*, *which*, *what*) and [personal pronouns](https://en.wikipedia.org/wiki/English_personal_pronouns) (e.g. her, you).
+
+<p align="center">
+    <img src="figures/word_type_distributions.png" alt="Word Types in Headline Frequency Distributions" width="512">
+</p
+
+Check out a detailed implementation of the exploratory data analysis and visualizations in `data_exploration.ipynb` or `data_exploration.html`.
 ## References
 
 We used data from the following sources:
