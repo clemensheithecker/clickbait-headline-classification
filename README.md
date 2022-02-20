@@ -8,13 +8,13 @@ This group work was in collaboration with [Thea A. Putnam](https://github.com/th
 
 ## Data Exploration
 
-Before building our classification models, we explored our data. We drew word clouds of the most occurring words in clickbait headlines
+Before building our classification models, we explored our data by drawing a word cloud of the most occurring words in clickbait headlines.
 
 <p align="center">
     <img src="figures/most_frequent_clickbait_words.png" alt="Most Frequent Words in Clickbait Headlines" width="512">
 </p
 
-and non-clickbait headlines.
+We also created a cloud for non-clickbait headlines.
 
 <p align="center">
     <img src="figures/most_frequent_non_clickbait_words.png" alt="Most Frequent Words in Non-Clickbait Headlines" width="512">
@@ -38,14 +38,14 @@ Find a detailed implementation of the exploratory data analysis and visualizatio
 
 To classify headlines as clickbait and non-clickbait, we developed two supervised machine learning models:
 
-1. We simply used the most frequently occurring words in headlines to train our model thereby varying the number of top words to include in the model.
+1. We used the most frequently occurring words in headlines to train our model thereby varying the number of top words to include in the model.
 2. Using the insights gained from our data exploration, we developed more granular features such as different word types, word sentiment, and word count in headlines.
 
 We first tokenized the headlines, removed punctuation and special characters, converted all characters to lowercase, and removed meaningless stop-words. However, we kept certain stop words in our model that we hypothesized to only occur in clickbait headlines. Then, we randomized the headlines and divided them into a training and testing set. We used the training set to train our model using Naive Bayes and Decision Tree classification models.
 
 ### Model Accuracy
 
-When testing the *first model* the accuracy was about
+The following table shows average accuracy results of the *first model*:
 
 | n    | model         | accuracy | time (s) |
 |------|---------------|----------|----------|
@@ -58,7 +58,7 @@ When testing the *first model* the accuracy was about
 
 where *n* is the number of top most frequent words (e.g. top 10 most frequent words).
 
-And when testing the *second model* the accuracy was about
+The average accuracy scores of the *second model* were as follows:
 
 | model         | accuracy | time (s) |
 |---------------|----------|----------|
